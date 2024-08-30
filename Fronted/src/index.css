@@ -1,0 +1,480 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  font-weight: 400;
+  font-style: normal;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#root {
+  margin: 0%;
+  padding: 0%;
+}
+
+.nav-bar {
+  background-color: rgb(230, 233, 230);
+  text-align: right;
+  position: absolute;
+  /* font-size: 20; */
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nav-bar ul li {
+  display: inline-block;
+  padding: 12px 15px;
+  position: relative;
+}
+
+.nav-bar ul li a {
+  color: rgb(42, 27, 27);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-bar ul li:hover {
+  background-color: rgb(196, 201, 196);
+  border-radius: 3px;
+}
+
+.sub-menu-1 {
+  display: none;
+  width: 270px;
+}
+
+.nav-bar ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background-color: rgb(233, 235, 233);
+}
+
+.nav-bar ul li:hover .sub-menu-1 ul {
+  display: block;
+}
+
+.nav-bar ul li:hover .sub-menu-1 ul li {
+  width: 250px;
+  padding: 10px;
+  border-bottom: 1px solid #4c4848;
+  background: transparent;
+  text-align: left;
+}
+
+.nav-bar ul li:hover .sub-menu-1 ul li:last-child {
+  border-bottom: none;
+}
+
+
+.nav-bar ul li:hover .sub-menu-1 ul li:hover {
+  color: rgb(169, 132, 84);
+  background-color: #A9DFED;
+  color: transparent;
+}
+
+.fa-angle-right {
+  float: right;
+}
+
+.sub-menu-2 {
+  display: none;
+  width: 270px;
+
+}
+
+.hover-me:hover .sub-menu-2 {
+  display: block;
+  width: 260px;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 240px;
+  background-color: rgb(233, 235, 233);
+}
+
+ul {
+  /* display: flex; */
+  /* flex-direction: row; */
+  margin: 0% 0% 0% 3%;
+  padding: 1% 2% 1% 1%;
+}
+
+.Services {
+  margin: 70px 0px 0px 0px;
+  padding: 0%;
+}
+
+.Card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.wedding-service-card {
+  padding: 10px;
+  background-color: #f8f9;
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 10px;
+  width: 22vw;
+  height: auto;
+  background-color: rgb(241, 242, 244);
+  text-align: center;
+}
+
+.image {
+  /* padding: 20; */
+  height: 90px;
+  width: 90px;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  margin: 0%;
+  background-color: #f3f3f3;
+}
+
+.testimonial {
+  width: 500px;
+  padding: 30px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.testimonial-info {
+  margin-top: 20px;
+}
+
+.testimonial-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: rgb(255, 208, 215);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-holder {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.4s ease-in-out;
+}
+
+.link {
+  color: #000000
+}
+
+.title {
+  color: white;
+}
+
+
+.slick-next {
+  right: -0%;
+  opacity: 0;
+}
+
+.image-size {
+  width: 1470px;
+  height: 850px;
+  /* z-index: 9; */
+}
+
+.header {
+  font-size: 13px;
+  line-height: 25px;
+}
+
+ul {
+  margin: 0%;
+  padding: 1% 3% 1% 1%;
+  z-index: 10;
+}
+
+.testimonial-card {
+  width: 100%;
+}
+
+.testimonial-content {
+  background-image: url(/Image/HD-wallpaper-plain-white-abstract.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.service-section {
+  text-align: center;
+  position: absolute;
+  font-size: 35px;
+  top: 50%;
+  left: 30%;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+
+.Testimonials-Icon {
+  height: 25px;
+  width: 100px;
+  margin: 1%;
+}
+
+.Services {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.slider-container {
+  text-align: center;
+  padding: 4%;
+  /* border: 1px solid black; */
+}
+
+.slider-containe {
+  height: 450px;
+  text-align: center;
+  padding: 1%;
+  /* border: 1px solid black; */
+}
+
+.footer {
+  background-color: #f9f9f9;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  font-size: 1rem;
+  color: #555;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* ////////////////////////////////////// */
+.vzevents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 3%;
+}
+
+.experiences {
+  justify-content: space-around;
+  display: flex;
+  width: 100%;
+}
+
+.event-type {
+  margin-top: 50px;
+  padding: 10px;
+  display: flex;
+  height: 120px;
+  color: #000000;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 8px 24px -6px;
+  border-radius: 10px;
+  transition: all .3s ease-in-out;
+  width: calc(85% / 4);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px dashed black;
+  background-color: rgb(253, 215, 221);
+}
+
+p {
+  margin: 0%;
+}
+
+.col-xl-3 {
+  flex: 0 0 auto;
+  /* width: 25%; */
+}
+
+@media (min-width: 992px) {
+  .col-xl-3 {
+    flex: 0 0 auto;
+    /* width: 25%; */
+  }
+}
+
+.bg-light {
+  background-color: rgb(250, 229, 233) !important;
+}
+
+
+.performers {
+  background-image: url(/image/lus.jpg);
+  height: 650px;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+  /* font-family: 'Raleway', sans-serif; */
+}
+
+
+.position {
+  top: 80%;
+  left: 65%;
+  line-height: 50%;
+  position: absolute;
+  text-align: center;
+}
+
+.pee {
+  font-size: 20px;
+  width: 60%;
+  text-align: center;
+  /* margin: 2% 0% 0% 22%; */
+  padding: 1%;
+}
+
+.slider-container {
+  padding: 4%;
+}
+
+.Testimonials-Icon {
+  height: 25px;
+  width: 100px;
+  /* margin: 1%; */
+}
+
+.Icon {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-image: url(/image/Flower-frame.png);
+  height: 100%;
+  width: 100%;
+  padding: 2% 0% 0% 0%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+.icon-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 40% !important;
+  float: left;
+  margin: 0% 0% 1% 0%;
+}
+
+.etc {
+  padding: 2% 0% 5% 25%;
+  color: rgb(79, 79, 79);
+  text-align: right;
+}
+
+.Number {
+  position: fixed;
+  top: 50%;
+}
+
+.left-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 50.5%;
+  left: 5%;
+
+}
+
+.h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  color: black;
+  width: 220px;
+  height: 45px;
+  background-color: antiquewhite;
+  border-radius: 8px;
+  border: 1px solid antiquewhite;
+  margin: 0%;
+  left: 5.5%;
+
+}
+
+.call {
+  background-color: antiquewhite;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.left {
+  height: 20px;
+  width: 20px;
+  rotate: 50%;
+}
+
+.mt-3 {
+  width: 100%;
+}
+
+.WhtsApp {
+  height: 65px;
+  width: 65px;
+  font-size: 45px;
+  position: fixed;
+  z-index: 1;
+  left: 0%;
+  top: 13%;
+  margin: 0%;
+  color: rgb(18, 140, 126);
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  .nav-bar {
+    width: 100%;
+  }
+}

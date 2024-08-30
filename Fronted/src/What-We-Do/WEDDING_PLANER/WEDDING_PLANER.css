@@ -1,0 +1,250 @@
+/* @import "~react-image-gallery/styles/css/image-gallery.css"; */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.nav-bar {
+    background-color: rgb(230, 233, 230);
+    text-align: right;
+    /* padding-right: 100px; */
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    padding: 15px 15px;
+    position: relative;
+}
+
+.nav-bar ul li a {
+    color: rgb(42, 27, 27);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-bar ul li:hover {
+    background-color: rgb(196, 201, 196);
+    border-radius: 3px;
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+.nav-bar ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background-color: rgb(233, 235, 233);
+    /* margin-top: 15px;
+    margin-left: -15px; */
+}
+
+.nav-bar ul li:hover .sub-menu-1 ul {
+    display: block;
+    /* margin: 10px; */
+}
+
+.nav-bar ul li:hover .sub-menu-1 ul li {
+    width: 250px;
+    padding: 10px;
+    border-bottom: 1px solid #4c4848;
+    background: transparent;
+    text-align: left;
+}
+
+.nav-bar ul li:hover .sub-menu-1 ul li:last-child {
+    border-bottom: none;
+}
+
+
+.nav-bar ul li:hover .sub-menu-1 ul li:hover {
+    color: rgb(169, 132, 84);
+    background-color: #A9DFED;
+    color: transparent;
+}
+
+.fa-angle-right {
+    float: right;
+}
+
+.sub-menu-2 {
+    display: none;
+}
+
+.hover-me:hover .sub-menu-2 {
+    display: block;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 240px;
+    width: 260px;
+    background-color: rgb(233, 235, 233);
+}
+
+ul {
+    margin: 0% 0% 0% 3%;
+    padding: 1% 2% 1% 1%;
+}
+
+.Wedecore-Wedding-Planer {
+    background-image: url(https://images.pexels.com/photos/8147258/pexels-photo-8147258.jpeg);
+    height: 700px;
+    width: 100%;
+    margin-top: 4.5%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.image-slide {
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+.position-Wedding-Planer {
+    top: 75%;
+    left: 75%;
+    line-height: 50%;
+    position: absolute;
+    text-align: center;
+}
+
+.pee-Wedding-Planer {
+    font-size: 16px;
+    width: 95%;
+    text-align: left;
+    /* margin: 2% 0% 0% 22%; */
+    padding-top: 1%;
+}
+
+.slider-container {
+    padding: 4%;
+    /* border: 1px solid black; */
+}
+
+.Testimonials-Icon {
+    height: 25px;
+    width: 100px;
+    /* margin: 1%; */
+}
+
+.Icon {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-image: url(/image/Flower-frame.png);
+    height: 100%;
+    width: 100%;
+    /* padding: 2% 0% 0% 0%; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.foter {
+    width: 1100px;
+}
+
+.Icon-Wedding-planer {
+    display: grid;
+    justify-items: center;
+    /* align-items: center; */
+    height: 100%;
+    width: 100%;
+
+}
+
+.icon-container-Wedding-planer {
+    display: flex;
+    color: black;
+    justify-content: start;
+    align-items: center;
+    width: 84% !important;
+    float: left;
+    margin: 0% 0% 1% 0%;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 40% !important;
+    float: left;
+    margin: 0% 0% 1% 0%;
+}
+
+.etc-Wedding-Planer {
+    padding: 2% 0% 0% 5.5%;
+    color: black;
+    font-weight: 300;
+    text-align: right;
+}
+
+.Number {
+    position: fixed;
+    top: 50%;
+}
+
+.left-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50.5%;
+    left: 5%;
+
+}
+
+.h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    position: fixed;
+    color: black;
+    width: 220px;
+    height: 45px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    border: 1px solid antiquewhite;
+    margin: 0%;
+    left: 5.5%;
+
+}
+
+
+.call {
+    background-color: antiquewhite;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+
+.left {
+    height: 20px;
+    width: 20px;
+    rotate: 50%;
+}
+
+.icon-bar-Wedding-Planer {
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 0% 6%;
+    gap: 3%;
+}
+
+.ulockd-all-service {
+    list-style-type: none;
+    text-align: left;
+    font-size: 16px;
+}
+
+.list-group-item {
+    border: 1px solid rgb(254, 174, 163);
+    margin-bottom: 2%;
+    width: 290px;
+}
+
+.extra-link {
+    padding-top: 50px;
+}

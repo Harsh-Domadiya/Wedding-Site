@@ -1,0 +1,207 @@
+/* @import "~react-image-gallery/styles/css/image-gallery.css"; */
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-bar {
+  background-color: rgb(230, 233, 230);
+  text-align: right;
+  /* padding-right: 100px; */
+}
+
+.nav-bar ul li {
+  display: inline-block;
+  padding: 15px 15px;
+  position: relative;
+}
+
+.nav-bar ul li a {
+  color: rgb(42, 27, 27);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-bar ul li:hover {
+  background-color: rgb(196, 201, 196);
+  border-radius: 3px;
+}
+
+.sub-menu-1 {
+  display: none;
+}
+
+.nav-bar ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background-color: rgb(233, 235, 233);
+  /* margin-top: 15px;
+    margin-left: -15px; */
+}
+
+.nav-bar ul li:hover .sub-menu-1 ul {
+  display: block;
+  /* margin: 10px; */
+}
+
+.nav-bar ul li:hover .sub-menu-1 ul li {
+  width: 250px;
+  padding: 10px;
+  border-bottom: 1px solid #4c4848;
+  background: transparent;
+  text-align: left;
+}
+
+.nav-bar ul li:hover .sub-menu-1 ul li:last-child {
+  border-bottom: none;
+}
+
+
+.nav-bar ul li:hover .sub-menu-1 ul li:hover {
+  color: rgb(169, 132, 84);
+  background-color: #A9DFED;
+  color: transparent;
+}
+
+.fa-angle-right {
+  float: right;
+}
+
+.sub-menu-2 {
+  display: none;
+}
+
+.hover-me:hover .sub-menu-2 {
+  display: block;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 240px;
+  width: 260px;
+  background-color: rgb(233, 235, 233);
+}
+
+
+.Wedecore-Hostilaty {
+  background-image: url(src/What-We-Do/Hostilaty/Image/HOSPITALITY-6.jpg);
+  height: 650px;
+  margin-top: 5%;
+  /* background-position: center; */
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.position-Hostilaty {
+  top: 75%;
+  left: 75%;
+  line-height: 50%;
+  position: absolute;
+  text-align: center;
+}
+
+.pee-Hostilaty {
+  font-size: 20px;
+  width: 55%;
+  text-align: center;
+  /* margin: 2% 0% 0% 22%; */
+  padding: 1%;
+}
+
+.slider-container {
+  padding: 4%;
+  /* border: 1px solid black; */
+}
+
+.Testimonials-Icon {
+  height: 25px;
+  width: 100px;
+  /* margin: 1%; */
+}
+
+.Icon {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-image: url(/image/Flower-frame.png);
+  height: 100%;
+  width: 100%;
+  /* padding: 2% 0% 0% 0%; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.foter {
+  width: 1100px;
+}
+
+
+.icon-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 40% !important;
+  float: left;
+  margin: 0% 0% 1% 0%;
+}
+
+
+.etc-Hostilaty {
+  padding:  1% 6.5%;
+  color: black;
+  text-align: right;
+}
+
+.h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  position: fixed;
+  color: black;
+  width: 220px;
+  height: 45px;
+  background-color: antiquewhite;
+  border-radius: 8px;
+  border: 1px solid antiquewhite;
+  margin: 0%;
+  left: 5.5%;
+
+}
+
+.icon-bar-Hostilaty {
+  /* border: 1px solid black; */
+  display: flex;
+  /* padding: 6%; */
+  gap: 3%;
+}
+
+.ulockd-all-service {
+  list-style-type: none;
+  text-align: left;
+  font-size: 16px;
+}
+
+.list-group-item {
+  border: 1px solid rgb(254, 174, 163);
+  margin-bottom: 2%;
+  width: 290px;
+}
+
+.etc {
+  padding: 2% 0% 2% 8%;
+}
+
+.pee-Hostilaty {
+  font-size: 16px;
+  width: 90%;
+  text-align: left;
+  color: black;
+  font-weight: 300;
+}
+
+.extra-link {
+  padding-top: 50px;
+}
